@@ -1,0 +1,66 @@
+:root { --miel: #8b2f2f;
+     --chocolat: #4a2c1a;
+      --creme: #fff8ef;
+       --espace: 1rem; 
+       --pistache:#6b8e4e;
+       --gris-texte:#3a3a3a;
+    }
+ body { background-color: var(--creme); 
+    color: var(--gris-texte);
+  font-family: police; 
+  line-height:1.6;
+}
+
+
+h1{
+    color: red;
+}
+h2{
+    color:var(--chocolat);
+    border-bottom: var(--miel) 2px;
+
+}
+nav a{
+    list-style-type: none;
+    color: var(--chocolat);
+}
+strong{
+    color: var(--miel);
+}
+footer{
+    background-color: var(--chocolat);
+    color: var(--creme);
+    text-align: center;
+}
+p,li{
+ line-height: 1.6;
+}
+
+#contact{
+    background-color: black;
+    margin:var(--espace) ;
+}
+.mise-en-avant{
+    font: size 1.2em italic;
+    
+}
+a:link { color: var(--miel); }
+a::visited{color: var(--pistache);}
+a::hover{color: var(--chocolat);}
+a:active{color: var(--chocolat);}
+
+ .carte-info{
+    width: 400px;
+    padding: 20px;
+    border: var(--miel) 2px;
+    margin: 30px;
+    
+ }
+ *, *::before, *::after { box-sizing: border-box;}
+ table { border-collapse: collapse; width: 100%; }
+  thead { background-color: var(--miel);
+color: var(--chocolat);} 
+  th, td {padding:8px;}
+  tbody tr td { text-align: right;}
+  tbody tr:nth-child(even){background-color: #3a3a3a; } 
+ caption { caption-side: bottom; font-style: italic; } 
